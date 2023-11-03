@@ -1,0 +1,17 @@
+.background {
+  position: relative;
+}
+
+#images {
+  position: absolute;
+  z-index: -1;
+  transition: all 0.8s;
+}
+
+#images img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
